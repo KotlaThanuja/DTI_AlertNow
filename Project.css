@@ -1,0 +1,120 @@
+.index{
+    text-align: center;
+}
+#logo{
+    width: 15%;
+    height: auto;
+}
+.title{
+    font-size: 50px;
+    font-family:sans-serif;
+    color: rgb(115, 4, 143);
+    text-align: center;
+    margin-bottom:0.5rem;
+}
+.caption{
+    color: orange;
+    font-weight: lighter;
+    padding-bottom: 2rem;
+    margin-top: 0;
+}
+.Login{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+}
+h6{
+    color: gray;
+}
+img{
+    width: 10%;
+    height: auto;
+}
+.LoginOptions{
+    width: 60%;
+    height: 40px;
+    background-color: blueviolet;
+    color: white;
+    font-size: medium;
+    margin-bottom: 2%;
+}
+.details{
+    background-color:gainsboro;
+    display: block;
+    border-radius: 10px;
+    border-color:  darkmagenta;
+    border-width: 2px;
+    box-shadow: 5px 8px 8px #555;
+    margin-bottom: 2%;
+}
+label{
+    display: block;
+}
+.resource {
+    /* width: 60%;
+    height: 40px; */
+    border-radius: 50px;
+    padding: 4px 20px 4px 20px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: blueviolet;
+    border: 2px solid black;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+}
+.resource .spanres {
+    
+    position: relative;
+    z-index: 2;
+}
+
+.resource:after {
+    border-radius: 50px;
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: blueviolet;
+    transition: all .35s;
+}
+
+.resource:hover {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.resource:hover:after {
+    width: 100%;
+}
+.box
+{
+    background-color:beige;
+    border-radius: 10px;
+    border-color: #0C134F;
+    border-style: groove;
+    display: inline;
+    position: absolute;
+    left: 40%;
+    padding: 2%;
+}
+.otp {
+	background-color: #0C134F;
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.otp:hover {
+  background-color: #555;
+  font-size:15px;
+}
+.try{
+    margin-bottom: 0.25rem;
+}
